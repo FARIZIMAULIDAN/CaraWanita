@@ -1,30 +1,30 @@
 import 'package:flutter/material.dart';
 
-class CaraWanitaPage extends StatelessWidget {
-  CaraWanitaPage({Key? key}) : super(key: key);
+class CaraWanitaEngPage extends StatelessWidget {
+  CaraWanitaEngPage({Key? key}) : super(key: key);
 
   // Daftar kalimat
   final List<String> kalimatList = [
-    "1. Harus ditemani suami atau mahram. Mahram adalah laki-laki yang dilarang menikah dengan perempuan yang akan berhaji itu.",
-    "2. Perempuan boleh pergi haji tanpa suami atau mahram selama diyakini terjaga keamanannya. Imam Syafi'i berpendapat, namun harus dengan izin suami.",
-    "3. Selama melaksanakan ibadah haji perempuan harus menutup auratnya kecuali muka dan kedua telapak tangannya (ketika ihram).",
-    "4. Tidak boleh mengeraskan suaranya pada waktu membaca talbiyah atau berdoa.",
-    "5. Tidak disunnahkan lari-lari kecil saat melintasi lampu hijau ketika sa'i dan tidak dianjurkan naik sampai ke atas Bukit Shafa dan Marwah.",
-    "6. Tidak mencukur gundul rambutnya, cukup memotongnya paling sedikit tiga helai atau memotong ujung rambutnya sepanjang jari.",
-    "7. Bagi yang haid atau nifas ketika sampai di miqat makani, wajib berniat ihram haji/umrah.’"
-        "Apabila belum melaksanakan tawaf ifadah karena haid sedangkan rombongannya akan segera pulang ke Tanah Air maka dia harus menunggu sampai suci, sehingga bisa melakukan tawaf ifadah. Selain itu, bisa juga meminum obat penunda haid atas petunjuk dokter.’"
+    "1. Must be accompanied by husband or mahram. Mahram is a man who is prohibited from marrying a woman who is going on the Hajj.",
+    "2. Women can go on the Hajj without a husband or mahram as long as they are assured of safety. Imam Syafi'i is of the opinion, but it must be with the husband's permission.",
+    "3. During the Hajj, women must cover their private parts except their face and palms (when in ihram).",
+    "4. You are not allowed to raise your voice when reading the talbiyah or praying.",
+    "5. It is not recommended to jog when crossing the green light when sa'i and it is not recommended to climb to the top of Mount Shafa and Marwah.",
+    "6. Don't shave your hair bald, just cut at least three strands or cut the ends of your hair to finger length.",
+    "7. For those who are menstruating or postpartum when they arrive at Miqat Makani, they must intend to enter the Hajj/Umrah ihram.'"
+        "If you haven't performed the tawaf ifadah due to menstruation and your group will soon return to Indonesia, then they have to wait until they are pure, so they can perform the tawaf ifadah. Apart from that, they can also take medication to delay menstruation under the doctor's instructions.",
   ];
 
   // Daftar array untuk List Builder
   final List<String> newArray = [
-    "--> Selain sembilan syarat tersebut, jemaah haji wanita juga perlu memperhatikan hal-hal berikut ini :",
-    "1. Berpakaian rapi, Islami, dan menghindari pakaian tipis dan ketat.",
-    "2. Tidak memakai make up yang berlebihan.",
-    "3. Bertutur kata yang baik, tidak berbohong, tidak memfitnah, dan tidak menggunjingkan orang lain.",
-    "4. Menghindari bepergian berduaan dengan orang yang bukan mahramnya.",
-    "5. Bersikap waspada dan hati-hati terhadap perilaku orang asing yang tidak dikenal, termasuk panggilan-panggilan aneh (panggilan Siti Rahmah).",
-    "6. Menghormati tempat-tempat ibadah dan menghindari perbuatan-perbuatan yang dirasa mengurangi kekhusyukan serta keikhlasan beribadah, seperti berswafoto (selfie) di tempat-tempat tersebut.",
-    "7. Tetap berpegang teguh pada al-akhlaq al-karimah.",
+    "--> Apart from these nine conditions, female Hajj pilgrims also need to pay attention to the following things:",
+    "1. Dress neatly, Islamically, and avoid thin and tight clothes.",
+    "2. Don't wear excessive make up.",
+    "3. Speak kind words, don't lie, don't slander, and don't gossip about other people.",
+    "4. Avoid traveling alone with people who are not your mahram.",
+    "5. Be alert and careful about the behavior of unknown strangers, including strange calls (calling Siti Rahmah).",
+    "6. Respect places of worship and avoid actions that are felt to reduce the solemnity and sincerity of worship, such as taking selfies in these places.",
+    "7. Keep adhering to al-akhlaq al-karimah.",
   ];
 
   @override
@@ -55,7 +55,7 @@ class CaraWanitaPage extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 2, vertical: 3),
               width: double.infinity,
               child: Image.asset(
-                'images/idnbaru.png',
+                'images/eng.png',
                 alignment: Alignment.topCenter,
                 fit: BoxFit.cover,
               ),
@@ -115,7 +115,7 @@ class CaraWanitaPage extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 17),
                     child: Center(
                       child: Text(
-                        "Jemaah haji wanita juga bisa mengamati waktu jeda suci (tatabbu' al-naqa'). Ketika darah haid tidak keluar dan diperkirakan cukup waktu untuk tawaf, maka segera mandi, memakai pembalut, dan melakukan tawaf ifadah dan sa'i. Jika setelah tawaf darah keluar lagi, tawafnya sah dan tidak dikenakan denda apa pun.",
+                        "Female pilgrims can also observe the sacred pause (tatabbu' al-naqa'). When menstrual blood does not come out and it is estimated that there is enough time for tawaf, then immediately take a shower, wear sanitary napkins, and perform tawaf ifadah and sa'i. If blood comes out again after the tawaf, the tawaf is valid and no fine is imposed.",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20, // Ukuran font diperbesar menjadi 20
