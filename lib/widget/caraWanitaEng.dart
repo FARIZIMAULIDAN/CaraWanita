@@ -98,6 +98,13 @@ class CaraWanitaEngPage extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                       fontSize:
                                           18, // Ukuran font diperbesar menjadi 18
+                                      shadows: [
+                                        Shadow(
+                                          blurRadius: 5, // Radius bayangan
+                                          color: Colors.black.withOpacity(0.2), // Warna bayangan
+                                          offset: Offset(0, 3), // Penyimpangan bayangan
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
@@ -123,8 +130,7 @@ class CaraWanitaEngPage extends StatelessWidget {
                           shadows: [
                             Shadow(
                               blurRadius: 5, // Radius bayangan
-                              color: Colors.black
-                                  .withOpacity(0.5), // Warna bayangan
+                              color: Colors.black.withOpacity(0.2), // Warna bayangan
                               offset: Offset(0, 3), // Penyimpangan bayangan
                             ),
                           ],
@@ -157,6 +163,13 @@ class CaraWanitaEngPage extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontSize:
                                     18, // Ukuran font diperbesar menjadi 18
+                                shadows: [
+                                  Shadow(
+                                    blurRadius: 5, // Radius bayangan
+                                    color: Colors.black.withOpacity(0.2), // Warna bayangan
+                                    offset: Offset(0, 3), // Penyimpangan bayangan
+                                  ),
+                                ],
                               ),
                             ),
                           ),
